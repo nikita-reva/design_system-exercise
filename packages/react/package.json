@@ -48,5 +48,6 @@
   "_id": "@reva_ds/react@1.0.0",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "c0a1bcaeeb6c2fbaa070158860acedeea5381918"
 }
