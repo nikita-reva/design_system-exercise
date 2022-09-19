@@ -33,6 +33,49 @@ exports[`snapshot of the base state 1`] = `
         />
       </svg>
     </button>
+    <ul
+      class="dse-select__overlay dse-select__overlay--closed"
+      id="dse-select-list"
+      role="menu"
+      style="top: 10px;"
+    >
+      <li
+        aria-label="Strict Black"
+        class="dse-select__option  "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-sm"
+        >
+          Strict Black
+        </p>
+      </li>
+      <li
+        aria-label="Heavenly Green"
+        class="dse-select__option  "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-sm"
+        >
+          Heavenly Green
+        </p>
+      </li>
+      <li
+        aria-label="Sweet Pink"
+        class="dse-select__option  "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-sm"
+        >
+          Sweet Pink
+        </p>
+      </li>
+    </ul>
   </div>
 </DocumentFragment>
 `;
@@ -72,7 +115,7 @@ exports[`snapshot of the options menu open state 1`] = `
       </svg>
     </button>
     <ul
-      class="dse-select__overlay"
+      class="dse-select__overlay dse-select__overlay--open"
       id="dse-select-list"
       role="menu"
       style="top: 10px;"
@@ -151,6 +194,66 @@ exports[`snapshot of the selected option state 1`] = `
         />
       </svg>
     </button>
+    <ul
+      class="dse-select__overlay dse-select__overlay--closed"
+      id="dse-select-list"
+      role="menu"
+      style="top: 10px;"
+    >
+      <li
+        aria-checked="true"
+        aria-label="Strict Black"
+        class="dse-select__option dse-select__option--selected "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-sm"
+        >
+          Strict Black
+        </p>
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          height="1rem"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          width="1rem"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4.5 12.75l6 6 9-13.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </li>
+      <li
+        aria-label="Heavenly Green"
+        class="dse-select__option  "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-sm"
+        >
+          Heavenly Green
+        </p>
+      </li>
+      <li
+        aria-label="Sweet Pink"
+        class="dse-select__option  "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-sm"
+        >
+          Sweet Pink
+        </p>
+      </li>
+    </ul>
   </div>
 </DocumentFragment>
 `;
