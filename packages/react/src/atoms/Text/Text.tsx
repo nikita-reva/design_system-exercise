@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FontSize } from '@reva_ds/foundation';
 
-interface TextProps {
+export interface TextProps {
   size?: keyof typeof FontSize;
   children?: React.ReactNode;
 }

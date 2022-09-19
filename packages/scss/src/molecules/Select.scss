@@ -7,17 +7,17 @@
   position: relative;
 
   &__label {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
     @include padding("xs");
-    border: 1px solid $form-border-color;
+    align-items: center;
     background: $form-bg-color;
-
-    font-family: $body-font-family;
+    border: 1px solid $form-border-color;
 
     cursor: pointer;
+    display: flex;
+
+    font-family: $body-font-family;
+    justify-content: space-between;
   }
 
   &__caret {
@@ -35,18 +35,18 @@
   &__overlay {
     @include padding("none");
     @include margin("none");
+    background: $form-bg-color;
 
     border: 1px solid $form-border-color;
-    background: $form-bg-color;
-    z-index: 99;
-
-    list-style-type: none;
 
     box-shadow: map-get($shadows, "base");
+
+    list-style-type: none;
 
     position: absolute;
 
     width: 100%;
+    z-index: 99;
 
     &--open {
       display: block;
@@ -58,14 +58,14 @@
   }
 
   &__option {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    cursor: pointer;
     @include padding("xs");
+    align-items: center;
 
     box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 
   &__option--highlighted {

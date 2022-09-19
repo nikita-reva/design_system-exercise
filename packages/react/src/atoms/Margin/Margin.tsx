@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Spacing } from '@reva_ds/foundation';
 
-interface MarginProps {
+export interface MarginProps {
   space?: keyof typeof Spacing;
   top?: boolean;
   right?: boolean;
