@@ -1,0 +1,2 @@
+// Delete all node modules folders
+rm -rf ./**/node_modules

@@ -1,0 +1,25 @@
+{
+  "name": "@reva_ds/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nikita-reva <aniketos@gmx.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^5.5.1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev",
+    "test": "yarn lerna run test"
+  }
+}

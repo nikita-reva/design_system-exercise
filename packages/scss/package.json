@@ -1,0 +1,39 @@
+{
+  "name": "@reva_ds/scss",
+  "version": "0.6.0",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20",
+    "postcss": "8",
+    "postcss-scss": "^4.0.5",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.11.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "scripts": {
+    "lint": "stylelint './**/*scss' --custom-syntax postcss-scss",
+    "lint:fix": "yarn lint --fix",
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.scss": "yarn lint:fix"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
