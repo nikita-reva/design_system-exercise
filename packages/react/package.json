@@ -7,7 +7,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@reva_ds/foundation": "^0.1.0",
+    "@reva_ds/foundation": "^0.8.1",
     "@babel/core": "^7.19.1",
     "@babel/preset-env": "^7.19.1",
     "@babel/preset-react": "^7.18.6",
