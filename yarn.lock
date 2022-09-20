@@ -2870,6 +2870,9 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@reva_ds/foundation@^0.1.0":
+  version "0.8.1"
+
 "@rollup/pluginutils@^4.1.2":
   version "4.2.1"
   resolved "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
