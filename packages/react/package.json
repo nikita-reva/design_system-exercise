@@ -43,10 +43,11 @@
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=6b42e64dbdf3",
     "test:chromatic": "npx chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\""
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@reva_ds/react@1.0.0",
+  "_id": "@reva_ds/react@0.8.2",
   "publishConfig": {
     "access": "public"
   },
