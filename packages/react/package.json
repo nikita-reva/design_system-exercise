@@ -1,17 +1,17 @@
 {
   "name": "@reva_ds/react",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "license": "MIT",
   "devDependencies": {
-    "@reva_ds/foundation": "^0.8.1",
     "@babel/core": "^7.19.1",
     "@babel/preset-env": "^7.19.1",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
+    "@reva_ds/foundation": "^0.8.1",
     "@storybook/addon-a11y": "^6.5.12",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
