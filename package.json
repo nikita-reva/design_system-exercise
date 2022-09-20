@@ -23,7 +23,7 @@
   },
   "private": true,
   "scripts": {
-    "build": "yarn lerna run build",
+    "build": "yarn lerna run build --include-dependencies",
     "dev": "yarn lerna run dev",
     "test": "yarn lerna run test",
     "publish": "yarn test && yarn build && yarn lerna publish",
